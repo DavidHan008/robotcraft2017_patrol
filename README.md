@@ -34,15 +34,15 @@ roslaunch robotcraft2017_patrol start_robots.launch
 Instead of launching all robots together (last command), you may test each robot's behavior in a separate terminal:
 
 ```
-rosrun robotcraft2017_patrol patrolbot robot_id:=0
+rosrun robotcraft2017_patrol patrolbot _robot_id:=0
 ```
 
 ```
-rosrun robotcraft2017_patrol patrolbot robot_id:=1
+rosrun robotcraft2017_patrol patrolbot _robot_id:=1
 ```
 
 ```
-rosrun robotcraft2017_patrol patrolbot robot_id:=2
+rosrun robotcraft2017_patrol patrolbot _robot_id:=2
 ```
 
 ----
